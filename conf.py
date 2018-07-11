@@ -1,11 +1,11 @@
 # SYSTEM CONFIGURATION
 SCREEN_NAME = "minecraft"
-LOG_PATH = "/home/warths/minecraft/logs/latest.log"
+LOG_PATH = "/home/minecraft/logs/latest.log"
 #BOT USAGE
 PREFIX = "!"
 COMMAND = "heavychat"
-ALLOWED_CHANNELS = ["heavyprojectbot", "valentinstream", "air_one29", "warths", "ragnar_oock", "hisokanen"]
-DEFAULT_CHANNEL = ALLOWED_CHANNELS[3]
+ALLOWED_CHANNELS = ["channel1", "channel2", "channel3", "channel4", "channel5", "channel6"]
+DEFAULT_CHANNEL = ALLOWED_CHANNELS[0]
 DEFAULT_SELECTOR = ['@a']
 #GRAPHICAL TWEAKS
 USE_COLORED_NICKNAME = True
