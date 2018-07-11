@@ -1,0 +1,16 @@
+{
+  "dark_red": "#AA0000",
+  "red": "#FF5555",
+  "gold": "#FFAA00",
+  "yellow": "#FFFF55",
+  "dark_green": "#00AA00",
+  "green": "#55FF55",
+  "aqua": "#55FFFF",
+  "dark_aqua": "#00AAAA",
+  "blue": "#5555FF",
+  "light_purple": "#FF55FF",
+  "dark_purple": "#AA00AA",
+  "white": "#FFFFFF",
+  "gray": "#AAAAAA",
+  "dark_gray": "#555555"
+}
