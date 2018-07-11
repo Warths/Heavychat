@@ -61,7 +61,7 @@ while True:
                 mc_send(cmd.get_command_tellraw("Modifier les destinataires d'HeavyChat :"), target=event.player, force=True)
                 mc_send(cmd.get_command_tellraw("%s%s selector [set|add|del] <arg1> <arg2> ..") % (PREFIX, COMMAND), target=event.player, force=True)
                 mc_send(cmd.get_command_tellraw("Lister les destinataires d'HeavyChat"), target=event.player, force=True)
-                mc_send(cmd.get_command_tellraw("%s%s selector list" %(PREFIX, COMMAND), target=event.player, force=True)
+                mc_send(cmd.get_command_tellraw("%s%s selector list") %(PREFIX, COMMAND), target=event.player, force=True)
                 mc_send(cmd.get_command_tellraw("Message Twitch rapide"), target=event.player, force=True)
                 mc_send(cmd.get_command_tellraw("%s<contenu du message>" % PREFIX), target=event.player, force=True)
             elif len(event.arg) == 2 and event.arg[0].lower() == 'switch':
