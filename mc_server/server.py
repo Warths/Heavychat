@@ -33,7 +33,7 @@ class Server:
             self.run_cmd('screen -p 0 -S %s -X stuff "%s $(printf \\\r)"' % (self.screen, string))
 
     def run(self):
-        logfile = subprocess.Popen(['tail', '-f', '-n', '0', self.log_path],
+        logfile = subprocess.Popen(['tail', '-F', '-n', '0', self.log_path],
                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         newlines = select.poll()
         while True:
